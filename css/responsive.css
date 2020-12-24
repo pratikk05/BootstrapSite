@@ -1,0 +1,44 @@
+/* =================
+Bootstrap media queries
+======================== */
+/* LArge devices (desktops and laptops) */
+@media(min-width:1200px) {
+
+}
+@media(min-width:992px) and (max-width:1199px) {
+    
+
+}
+@media(max-width:767px){
+    .navbar{
+        background-color:rgba(0, 0, 0, 0.8);
+
+    }
+    #home-heading h3{
+        font-size: 35px;
+    }
+
+}
+@media(max-width:576px)  {
+    .img-wrapper img{
+        width: 100%;
+    }
+    .stats-item{
+        padding: 20px 0;
+        text-align: center;
+         
+ 
+        
+
+    }
+    #home-heading h3{
+        font-size: 35px;
+    }
+
+}
+@media(max-width:320px){
+    #home-heading h3{
+        font-size: 23px;
+    }
+
+}
